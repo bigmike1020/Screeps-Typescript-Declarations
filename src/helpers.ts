@@ -47,8 +47,7 @@ interface SignDefinition {
 }
 interface StoreDefinition {
     [resource: string]: number;
-    energy?: number;
-    power?: number;
+    energy: number;
 }
 
 interface LookAtResultWithPos {
