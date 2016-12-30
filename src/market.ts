@@ -51,7 +51,7 @@ declare class Market {
      * @param orderId The order ID
      * @returns An object with the order info. See getAllOrders for properties explanation.
      */
-    getOrderById(id: string): Order;
+    getOrderById(orderId: string): Order;
 
 }
 
